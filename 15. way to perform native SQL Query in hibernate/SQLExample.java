@@ -17,10 +17,14 @@ public class SQLExample {
 		
 		
 		//this is sql query
+		//way to perform sql query in hibernate 
 		String query = "select * from Student";
 		
 		NativeQuery nq = session.createSQLQuery(query);
 		
+		//reason of taking (Object[]) is Certificate class is embeded into Student class so it is getting result in 2D from in background
+		//therefore returning object of object  
+
 		List<Object[]> list = nq.list();
 		
 		for(Object []s1 : list) {
