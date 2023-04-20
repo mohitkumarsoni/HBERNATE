@@ -32,7 +32,7 @@ public class SecondLevelCache {
 }
 
 
-/*	SECOND LEVEL CACHE IS BY DEFAULT TURNED OFF 
+/*	SECOND LEVEL CACHE IS BY DEFAULT TURNED OFF / LETS SEE HOW WE CAN TuRN IT ONN.
  * 
  *	to enable second level cache you need to add dependencies (Ehcache, Hibernate Ehcache Relocation ) in "pom.xml" file,
  *	also you have to configure your configuration, in our case (Kindly check our  "config.xml" file) 
