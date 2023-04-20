@@ -42,7 +42,7 @@ public class SecondLevelCache {
  *	in above example 2 sessions are fetching same data, with different sessions. in this case data is stored in second level cache 
  *	i.e : in SessionFactory, so query will pass single time, even if session is closed & opened multiple times
  *
- *
+ *	(type "EhcacheRegionFactory" in main method to copy import path, just to insert in "config.xml" file)
 
  
  */
